@@ -1,34 +1,43 @@
 [
   {
-    "name": "Hulk T-Shirt",
-    "category": ["t-shirts", "men", "marvel", "hulk"],
+    "name": "Venom T-Shirt",
+    "category": ["t-shirts", "men", "marvel", "spiderman"],
     "price": 400,
-    "images": {"public_id": "sample id", "url": "sample url"},
+    "ratings": 4,
+    "images": [
+      "tsvenom1.jpg",
+      "tsvenom2.jpg",
+      "tsvenom3.jpg"
+    ],
     "stock": 50,
     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
   },
   {
-    "name": "Super-Man T-Shirt",
-    "category": ["t-shirts", "men", "marvel", "superman"],
-    "price": 400,
-    "images": {"public_id": "sample id", "url": "sample url"},
-    "stock": 50,
-    "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
-  },
-  {
-    "name": "Batman T-Shirt",
-    "category": ["t-shirts", "men", "marvel", "batman"],
-    "price": 400,
-    "images": {"public_id": "sample id", "url": "sample url"},
-    "stock": 50,
-    "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
-  },
-  {
-    "name": "Flash T-Shirt",
+    "name": "Ironman T-Shirt",
     "category": ["t-shirts", "men", "marvel", "ironman"],
     "price": 400,
-    "images": {"public_id": "sample id", "url": "sample url"},
+    "ratings": 5,
+    "images": [
+      "tsironman1.jpg",
+      "tsironman2.jpg",
+      "tsironman3.jpg",
+      "tshirtsize.jpg"
+    ],
+    "stock": 50,
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
+  },
+  {
+    "name": "Captain America T-Shirt",
+    "category": ["t-shirts", "men", "marvel", "captain"],
+    "price": 400,
+    "ratings": 3.5,
+    "images": [
+      "tscaptain1.jpg",
+      "tscaptain2.jpg",
+      "tscaptain3.jpg"
+    ],
     "stock": 50,
     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
   }
 ]
+  

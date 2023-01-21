@@ -7,7 +7,7 @@ const start = async () => {
     try {
        mongoose
             .set('strictQuery', false)
-            .connect(process.env.MONGO_URI)
+            .connect("mongodb+srv://kashish:dbpassword@cluster0.nmfc0ty.mongodb.net/?retryWrites=true&w=majority")
         // await Product.deleteMany({});
         await Product.create(productsJson);
         console.log("success");
