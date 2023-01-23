@@ -11,3 +11,6 @@
 .env.local
 
 config.env
+productDB.js
+products.json
+
